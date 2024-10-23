@@ -15,3 +15,8 @@ source .venv/bin/activate
 pip install poetry
 poetry install
 ```
+
+## TODO
+
+- Avoid the need to inform target S3
+- Use sqlite to store meta (example the name of the target bucket)
